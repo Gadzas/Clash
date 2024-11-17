@@ -1,10 +1,6 @@
 const datas={
 list:[
  {
-  card_lvl: 1,
-  column2: 1
- },
- {
   card_lvl: 2,
   column2: 2
  },
@@ -86,15 +82,27 @@ list:[
   column4: 200,
   column5: 20,
   column6: 20
-  }
- 
+  },
+  {
+  card_lvl: 15,
+  column2: 50000,
+  column3: 50000,
+  column4: 50000,
+  column5: 50000,
+  column6: 0
+  },
+  {
+  card_lvl: 16,
+  column2: 50000,
+  column3: 50000,
+  column4: 50000,
+  column5: 50000,
+  column6: 0
+  } 
 ]  
 }
 const datas2={
 list:[
- {
-   level : 1
- },
  {
    level : 2,
    column2 : 5
@@ -173,6 +181,22 @@ list:[
    column4 : 100000,
    column5 : 100000,
    column6 : 100000
+ },
+ {
+   level : 15,
+   column2 : 500000,
+   column3 : 500000,
+   column4 : 500000,
+   column5 : 500000,
+   column6 : 500000
+ },
+ {
+   level : 16,
+   column2 : "elite",
+   column3 : "elite",
+   column4 : "elite",
+   column5 : "elite",
+   column6 : "elite"
  }
 ]
 }
