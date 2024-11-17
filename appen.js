@@ -66,7 +66,7 @@ container.innerHTML = ``;
 	  <p>${gold}</p>
 	  </p> level ${item.level}
 	  </div>
-	  <div>${damag(item)}</div>
+	  <div>Dm:${damag(item)}</div>
 	  <div>${item.name}</div>`;
       
       container.appendChild(div);

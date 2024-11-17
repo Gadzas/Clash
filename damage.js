@@ -4278,7 +4278,7 @@ damage={
                 //console.log(damage.list[i][key],`: dm -`,damage.list[i][key2],`; hp -`,damage.list[i][key3])
                 // damag1=damage.list[i][key]
                 // console.log(item.name,damage.list[i][key2])
-                damag1=damage.list[i][key2]
+			damag1=(damage.list[i][key2])+' HP:'+(damage.list[i][key3])
 				console.log(damag1)
                 
                
