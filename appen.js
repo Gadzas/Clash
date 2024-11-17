@@ -1,45 +1,45 @@
 
 text='-webkit-background-clip: text; -webkit-text-fill-color: transparent;'
-function appen(filter1,filter2, sortedByKey,num){
+function appen(filter1,filter2, sortedByKey,num1){
 const container = document.getElementById('container');
 container.innerHTML = ``
     
 
       parameter=[filter1,filter2, sortedByKey]
 
-      parameter[num].forEach(item => {
+      parameter[num1].forEach(item => {
       const div = document.createElement('div');
       
       switch(item.rarity){
          case 'champion': 
              color= "linear-gradient(1deg,red, gold, red)";
              plus=10
-             gold=datas2.list[item.level].column6; column=datas.list[item.level].column6;
+             gold=datas2.list[item.level-1].column6; column=datas.list[item.level-1].column6;
              inne(color);
              break;      
          case 'legendary':
              
              color= "linear-gradient(-10deg, #06DC9C, violet)";
              plus=9;
-             gold=datas2.list[item.level].column5; column=datas.list[item.level].column5;
+             gold=datas2.list[item.level-1].column5; column=datas.list[item.level-1].column5;
              inne(color);
              break;
          case 'epic':            
              color= "#C213C9";
              plus=6
-             gold=datas2.list[item.level].column4; column=datas.list[item.level].column4;
+             gold=datas2.list[item.level-1].column4; column=datas.list[item.level-1].column4;
              inne(color);
              break;
          case 'rare':
              color= "#FF8C00";
              plus=2;
-             gold=datas2.list[item.level].column3; column=datas.list[item.level].column3;
+             gold=datas2.list[item.level-1].column3; column=datas.list[item.level-1].column3;
              inne(color);
              break;
          case 'common':
              color= "white";
              plus=-1;
-             gold=datas2.list[item.level].column2; column=datas.list[item.level].column2;
+             gold=datas2.list[item.level-1].column2; column=datas.list[item.level-1].column2;
              inne(color);
              break;
       default: ;    
